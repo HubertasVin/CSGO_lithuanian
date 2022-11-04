@@ -1,5 +1,7 @@
 # CSGO_lithuanian
-CS:GO nepilnas vertimas iš anglų kalbos į lietuvių
+CS:GO nepilnas vertimas iš anglų kalbos į lietuvių.
+
+Didelė dalis žaidimo dar neišversta, tačiau aktyviai dirbu atnaujindamas vertimą.
 # Instaliacija
 1. Per „Steam” nueikite į **Library** skiltį
 2. Paspauskite dešinįjį pelės klavišą and „Counter-Strike: Global Offensive” ir užveskite pelę ant skilties **Manage** ir pasirinkite parintį **Browse local files**.
