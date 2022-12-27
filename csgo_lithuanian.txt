@@ -1199,7 +1199,7 @@
 	"Survival_Respawn_Cooldown_Too_Long"				"Daugiau jokių atgimimų!"
 	
 	// TRUST FACTOR WARNING
-	"SFUI_QMM_ERROR_X_AccountWarningTrustMinor"			"Atsargiai: %s1 turi žemėsnį patikimumo lygį nei jūs."
+	"SFUI_QMM_ERROR_X_AccountWarningTrustMinor"			"Atsargiai: %s1 turi žemesnį patikimumo lygį nei jūs."
 	"SFUI_QMM_ERROR_X_AccountWarningTrustMajor"			"Perspėjimas: %s1 turi daug žemesnį patikimumo lygį nei jūsų."
 
 	// Panorama strings
