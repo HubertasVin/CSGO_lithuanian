@@ -705,15 +705,15 @@
 	"no_maps_selected_text"								"Pasirinkite bent vieną žemėlapį ar žemėlapių grupę."
 
 
-	"advertising_for_hire_tooltip_title" 				"Ieškoma Žaidėjų"
-	"advertising_for_hire_tooltip"						"Leidžia Netoliese esantiems žaidėjams prisijungti prie jų fojė"
-	"advertising_for_hire_tooltip_disabled"				"Neleidžiama įjungti „Ieškoma Žaidėjų“ kol esate fojė"
-	"advertising_for_hire_stop_looking"					"Nustoti Ieškoti"
-	"advertising_for_hire_open_friends_list"			"Surasti Žaidėją"
+	"advertising_for_hire_tooltip_title" 				"Ieškoma žaidėjų"
+	"advertising_for_hire_tooltip"						"Leidžia netoliese esantiems žaidėjams pakviesti jus prie jų komandos"
+	"advertising_for_hire_tooltip_disabled"				"Neleidžiama įjungti „Ieškoma žaidėjų“ kol esate komandoje"
+	"advertising_for_hire_stop_looking"					"Nustoti ieškoti"
+	"advertising_for_hire_open_friends_list"			"Surasti žaidėją"
 
-	"elevated_status_toggle_prime_only"					"Reitinguojami Žaidimai"
-	"elevated_status_toggle_prime_all"					"Nereitinguojami Žaidimai"
-	"elevated_status_toggle_non_prime"					"Svarbiausias Įjungtas"
+	"elevated_status_toggle_prime_only"					"Reitinguojami žaidimai"
+	"elevated_status_toggle_prime_all"					"Nereitinguojami žaidimai"
+	"elevated_status_toggle_non_prime"					"Prime įjungtas"
 
 
 	"SFUI_T_Label"										"TERORISTAI"
