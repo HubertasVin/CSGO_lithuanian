@@ -89,7 +89,7 @@
 	"tooltip_xp_bonus_2_op06"							"- Gaukite <b>%s1</b> daiktą kitą kartą, kai pakilsite rangu!"
 	"tooltip_xp_bonus_2_op07"							"- Gaukite <b>%s1</b> daiktą kitą kartą, kai pakilsite rangu!"
 	"tooltip_xp_bonus_2_op08"							"- Gaukite <b>%s1</b> daiktą kitą kartą, kai pakilsite rangu!"
-	"tooltip_xp_bonus_3"								"- Sumažintas 'Gaunamas XP' iki kitos savaitės."
+	"tooltip_xp_bonus_3"								"- Sumažintas „Gaunamas XP“ iki kitos savaitės."
 
 	// MATCH READY BUTTON
 	"match_ready_accept"								"PATVIRTINTI"
@@ -434,7 +434,7 @@
 	"Cstrike_TitlesTXT_CTs_Win"								"Anti-Teroristai laimi!"
 	"Cstrike_TitlesTXT_Cannot_Be_Spectator"					"Jūs negalite būti žiūrovas."
 	"Cstrike_TitlesTXT_Cannot_Buy_This"						"Jūs negalite pirkti šio daikto."
-	"Cstrike_TitlesTXT_Cannot_Carry_Anymore"				"Jūs negalite turėti daugiau nei vieną šio daikto."
+	"Cstrike_TitlesTXT_Cannot_Carry_Anymore"				"Jūs negalite turėti daugiau nei vieno šio daikto."
 	"Cstrike_TitlesTXT_Cannot_Switch_From_VIP"				"Jūs esate VIP.
 	Jūs negalite keistis rolėmis dabar."
 	"Cstrike_TitlesTXT_Cannot_Vote_Map"						"You cannot vote within 3 minutes of a new map."
@@ -451,7 +451,7 @@
 	"Cstrike_TitlesTXT_Team_fall_back"						"Komanda, atsitraukiame!"
 	"Cstrike_TitlesTXT_Stick_together_team"					"Likite kartu, komanda."
 	"Cstrike_TitlesTXT_Storm_the_front"						"Puolame iš priekio!"
-	"Cstrike_TitlesTXT_Cheer"								"džiūgauti!"
+	"Cstrike_TitlesTXT_Cheer"								"Džiūgauti!"
 	"Cstrike_TitlesTXT_Thanks"								"Ačiū!"
 	"Cstrike_TitlesTXT_Compliment"							"Geras!"
 	"Cstrike_TitlesTXT_Got_Hostages"						"Turiu įkaitą."
