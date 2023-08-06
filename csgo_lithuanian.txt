@@ -27,7 +27,7 @@
 	"tooltip_navbar_home"								"Prietaisų skydelis"
 	"tooltip_navbar_play"								"Žaisti CS:GO"
 	"tooltip_navbar_settings"							"Nustatymų meniu"
-	"tooltip_navbar_overwatch"							"Žvalgas iš viršaus"
+	"tooltip_navbar_overwatch"							"Žaidimų peržiūra"
 	"tooltip_navbar_watch"								"Žiūrėkite žaidimus ir turnyrus"
 	"tooltip_navbar_inventory"							"Inventorius"
 	"tooltip_navbar_quit"								"Išeiti į darbalaukį"
@@ -42,21 +42,11 @@
 	"tooltip_inspect_weapon_model"						"Apžiūrėti ginklo modelį"
 	"tooltip_inspect_weapon_model_faction"				"Apžiūrėti žaidėjo modelį"
 	"tooltip_inspect_play_mvp_anthem"					"Paleisti MVP muziką"
-
-	"prime_only_label"									"Tik pirminiai žaidėjai"
-	"prime_priority_label"								"Pirminiai ir nepirminiai žaidėjai"
-	"prime_ranked"										"Reitinguojami žaidimai"
-	"prime_unranked"									"Nereitinguojami žaidimai"
-	"prime_not_enrolled_label"							"Nepirminiai žaidėjai"
-	"prime_disabled_label"								"Pirminis išjungtas"
-	"matchmaking_expected_wait_time"					"Laukimo laikas {s:time}"
-	"no_steam_group_link"								"Jūs nesate jokios Steam grupės narys."
-
+	
 	"tooltip_permissions_title"							"Leidimų nustatymai"
-	"permissions_public"								"Draugai gali prisijungti"
-	"tooltip_permissions_nearby"						"• Artimi žaidėjai gali prisijungti"
-	"tooltip_permissions_group"							"• <b>Steam Grupė:</b> {s:group}"
-
+	"tooltip_permissions_nearby"						"• Netoliese esantys žaidėjai gali prisijungti"
+	"tooltip_permissions_group"							"• <b>Steam grupė:</b> {s:group}"
+	
 	"tooltip_friendly"									"Skaičius unikalių pagyrimų gautų už buvimą <b>Draugišku</b>"
 	"tooltip_leader"									"Skaičius unikalių pagyrimų gautų už buvimą <b>Lyderiu</b>"
 	"tooltip_teaching"									"Skaičius unikalių pagyrimų gautų už buvimą <b>Mokytoju</b>"
@@ -67,6 +57,7 @@
 	"tooltip_skill_group_expired" 						"Jūsų įgūdžių grupės galiojimas baigėsi dėl neveiklumo, laimėkite 1 rungtynes, kad ją vėl parodytumėte."
 	"tooltip_skill_group_recalibrating" 				"Jūsų įgūdžių grupė kalibruojasi iš naujo, laimėkite 1 rungtynes, kad ją vėl parodytumėte."
 	"tooltip_skill_group_locked" 						"Įgūdžių grupės atnaujinamos žaidžiant reitinguotas rungtynes. Įsigykite pagrindinio statuso atnaujinimą, kad atlaisvintumėte savo įgūdžių grupę."
+
 	"tooltip_skill_group_genericwingman" 				"Sparnininko įgūdžių grupė naudojama ieškant žaidėjo įgūdžių atitinkančių rungtynių."
 	"tooltip_skill_group_nonewingman" 					"Laimėk <b>{d:winsneeded}</b> Wingman rungtynes, kad parodytumėte savo įgūdžių grupę."
 	"tooltip_skill_group_expiredwingman" 				"Sparnininko įgūdžių grupė pasibaigė dėl neveiklumo, laimėkite 1 rungtynes, kad ją vėl parodytumėte."
@@ -76,10 +67,11 @@
 	"tooltip_skill_group_expireddangerzone" 			"Pavojingaus zonos įgūdžių grupę reikia sukalibruoti, užpildykite kai kurias pavojingų zonų atitiktis, kad būtų rodoma įgūdžių grupė."
 	"tooltip_skill_group_recalibratingdangerzone" 		"Reikia sukalibruoti pavojaus zonos įgūdžių grupę, užpildykite kai kurias pavojingų zonų atitiktis, kad būtų rodoma įgūdžių grupė."
 	"tooltip_skill_group_wins" 							"<img src='file://{images}/icons/ui/trophy.svg' vspace='6' class='player-card-tooltip-icon'/> {d:wins} Laimėjimai"
+	
 	"tooltip_xp_current"								"Jūsų dabartinis XP skaičius yra {s:xpcurrent}"
 	"tooltip_xp_have_max_current"						"Gautas Tarptautinio Renerolo Rangas!"
-	"tooltip_xp_for_next_rank"							"{s:xptonext} XP reikalingi, kad gauti aukštesnį ranką"
-	"tooltip_xp_have_max_rank"							"Sveikiname, jūs pasiekėte Tarptautinio generolo ranką! Jūs galite pasiimti parodomajį tarnybinį medalį. Pasiimdami tarnybinį medalį, jūs galėsite iš naujo vėl rinkti XP kad gauti naują tarnybos medalį.\n\nJūsų dabartinis XP yra {s:xpcurrent}"
+	"tooltip_xp_for_next_rank"							"{s:xptonext} XP reikalingi, kad gauti aukštesnį rangą"
+	"tooltip_xp_have_max_rank"							"Sveikiname, jūs pasiekėte Tarptautinio generolo rangą! Jūs galite pasiimti parodomajį tarnybinį medalį. Pasiimdami tarnybinį medalį, jūs galėsite iš naujo vėl rinkti XP kad gauti naują tarnybos medalį.\n\nJūsų dabartinis XP yra {s:xpcurrent}"
 	"tooltip_xp_how_to_earn"							"XP yra gaunamas baigiant žaidimus bet kokiame režime ir įvykdant misijas."
 	"tooltip_xp_bonuses_title"							"Jūsų aktyvūs bonusai"
 	"tooltip_xp_bonus_1"								"- Savaitinis XP bonusas galioja!"
@@ -88,6 +80,26 @@
 	"tooltip_xp_bonus_2_op07"							"- Gaukite <b>%s1</b> daiktą kitą kartą kaip pakilsite rangu!"
 	"tooltip_xp_bonus_2_op08"							"- Gaukite <b>%s1</b> daiktą kitą kartą kaip pakilsite rangu!"
 	"tooltip_xp_bonus_3"								"- Sumažintas 'Gaunamas XP' iki kitos savaitės."
+	"tooltip_xp_bonus_4"								"- Galimas žaidimų peržiūros XP apdovanojimas!"
+	"tooltip_xp_locked"									"Norint uždirbti XP, reikalingas Pirminis statusas. Įsigykite Pirminio statuso atnaujinimą, kad atlaisvintumėte savo rangą."
+	"tooltip_join_public_lobby"							"Prisijunkite prie viešos komandos"
+	"tooltip_suggested_lobby"							"Šis komanda atvira tik „Steam“ grupės nariams."
+	
+	"tooltip_invite"				"Pakvieskite draugą žaisti"
+	"tooltip_Join"					"Prisijunkite prie draugo"
+	
+	"prime_only_label"									"Tik pirminiai žaidėjai"
+	"prime_priority_label"								"Pirminiai ir nepirminiai žaidėjai"
+	"prime_ranked"										"Reitinguojami žaidimai"
+	"prime_unranked"									"Nereitinguojami žaidimai"
+	"prime_not_enrolled_label"							"Nepirminiai žaidėjai"
+	"prime_disabled_label"								"Pirminis išjungtas"
+	"matchmaking_expected_wait_time"					"Laukimo laikas {s:time}"
+	"no_steam_group_link"								"Jūs nesate jokios Steam grupės narys."
+	
+	"permissions_public"								"Draugai gali prisijungti"
+	"permissions_private"								"Draugams reikalingi pakvietimai"
+	"permissions_group"									"Steam grupė ir draugai"
 
 	// MATCH READY BUTTON
 	"match_ready_accept"								"PATVIRTINTI"
