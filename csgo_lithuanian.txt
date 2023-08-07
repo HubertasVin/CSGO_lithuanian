@@ -16,7 +16,7 @@
 		"GameUI_CrosshairBehavior"	"Taikiklio elgesys"
 		"GameUI_CrosshairBehaviorStatic"	"Statinis"
 		"GameUI_CrosshairBehaviorDynamic"	"Dinaminis"
-
+		
 		"GameUI_FriendlyWarning"		"Įspėjimas apie draugišką apšaudymą"
 		"GameUI_FriendlyWarning_Desc"	"Rodyti įspėjimą taikiklyje, kai nusitaikoma į komandos narį."
 
@@ -68,6 +68,43 @@
 		"GameUI_Always" "Visada"
 		"GameUI_ObservedBotCrosshair_Takeover" "Kai galiu perimti botą"
 		"GameUI_ObservedBotCrosshair_Default" "Niekada"
+
+		"GameUI_Xhair_Reset_Tooltip" "Atstatyti visus taikiklio nustatymus į numatytąsias."
+		"GameUI_Xhair_Undo_Tooltip" "Atšaukti neseniai atliktus taikiklio pakeitimus."
+		"GameUI_Xhair_CopyCode_Tooltip" "Bendrinti arba importuoti taikiklio kodą."
+		"GameUI_Xhair_Code_Popup" "Bendrinti arba importuoti"
+		"GameUI_Xhair_Code_Invalid" "Negaliojantis arba senas taikiklio kodas"
+		"GameUI_Xhair_Import_Code" "Importuoti"
+
+		"tooltip_copycrosshair" "Kopijuoti taikiklį"
+		"GameUI_Xhair_Copy_Code_Confirm" "Pakeisti dabartinį taikikliį?"
+
+		"GameUI_Language_English" "Anglų"
+		"GameUI_Language_German" "Vokiečių"
+		"GameUI_Language_French" "Prancūzų"
+		"GameUI_Language_Italian" "Italų"
+		"GameUI_Language_Korean" "Korėjiečių"
+		"GameUI_Language_Spanish" "Ispanų"
+		"GameUI_Language_Simplified_Chinese" "Supaprastinta kinų kalba"
+		"GameUI_Language_Traditional_Chinese" "Tradicinė kinų kalba"
+		"GameUI_Language_Russian" "Rusų"
+		"GameUI_Language_Thai" "Tajų "
+		"GameUI_Language_Japanese" "Japonų"
+		"GameUI_Language_Portuguese" "Portugalų"
+		"GameUI_Language_Polish" "Lenkų"
+		"GameUI_Language_Danish" "Danų"
+		"GameUI_Language_Dutch" "Olandų"
+		"GameUI_Language_Finnish" "Suomių"
+		"GameUI_Language_Norvegian" "Norvegų"
+		"GameUI_Language_Swedish" "Švedų"
+
+		"GameUI_Map" "Žemėlapis"
+		"GameUI_Close" "Uždaryti"
+		"GameUI_Load" "Įkelti"
+		"GameUI_Save" "Išsaugoti"
+		"GameUI_SaveAs" "Išsaugoti kaip..."
+		"GameUI_Refresh" "Atnaujinti"
+		"GameUI_OpenFile" "Atidaryti failą"
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Party 
