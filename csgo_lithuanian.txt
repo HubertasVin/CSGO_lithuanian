@@ -16,7 +16,7 @@
 		"GameUI_CrosshairBehavior"	"Taikiklio elgesys"
 		"GameUI_CrosshairBehaviorStatic"	"Statinis"
 		"GameUI_CrosshairBehaviorDynamic"	"Dinaminis"
-		
+
 		"GameUI_FriendlyWarning"		"Įspėjimas apie draugišką apšaudymą"
 		"GameUI_FriendlyWarning_Desc"	"Rodyti įspėjimą taikiklyje, kai nusitaikoma į komandos narį."
 
@@ -68,8 +68,6 @@
 		"GameUI_Always" "Visada"
 		"GameUI_ObservedBotCrosshair_Takeover" "Kai galiu perimti botą"
 		"GameUI_ObservedBotCrosshair_Default" "Niekada"
-
-		
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Party 
