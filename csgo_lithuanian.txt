@@ -208,6 +208,7 @@
 		"Button_Model" "Modelis"
 		"Button_Musickit" "Muzikos rinkinys"
 		"Button_All" "Visi"
+		"Cancel_Button"					"Atšaukti"
 		
 		"GameUI_Yes"					"Taip"
 		"GameUI_No"						"Ne"
@@ -245,6 +246,19 @@
 	//742
 	"Console_Title"		"Konsolė"
 	"Console_Submit"	"Pateikti"
+	
+	"FileOpenDialog_Open"		"Atidaryti"
+	"FileOpenDialog_Save"		"Išsaugoti"
+	"FileOpenDialog_Select"		"Pasirinkti"
+	"FileOpenDialog_Cancel"		"Atšaukti"
+	
+	"vgui_ok"			"Gerai"
+	"vgui_close"			"Uždaryti"
+	"vgui_Cancel"			"Atšaukti"
+	"vgui_select"			"Pasirinkti"
+	
+// vgui_english.txt
+// ---------------------------------------------------------------------------------------------
 	
 		"CSGO_Tournament_Event_Name_20"			"IEM Rio 2022 CS:GO čempionatas"
 		"CSGO_Tournament_Event_NameShort_20"	"IEM Rio 2022"
@@ -295,7 +309,7 @@
 		"Cstrike_TitlesTXT_CTs_Full"							"CT komanda yra pilna"
 		"Cstrike_TitlesTXT_CTs_PreventEscape"					"CT neleido didžiajai komandos daliai
 		teroristų pabėgti."
-		"Cstrike_TitlesTXT_CTs_Win"								"Anti-Teroristai laimi!"
+		"Cstrike_TitlesTXT_CTs_Win"								"Anti-Teroristai laimėjo!"
 		"Cstrike_TitlesTXT_Cannot_Be_Spectator"					"Jūs negalite būti žiūrovas."
 		"Cstrike_TitlesTXT_Cannot_Buy_This"						"Jūs negalite pirkti šio daikto."
 		"Cstrike_TitlesTXT_Cannot_Carry_Anymore"				"Jūs negalite turėti daugiau nei vieną šio daikto."
@@ -335,11 +349,233 @@
 		"Cstrike_TitlesTXT_Defusing_Bomb_Without_Defuse_Kit"	"Nukenksminamas sprogmuo BE įrankių rinkinio."
 		"Cstrike_TitlesTXT_Bomb_Already_Being_Defused"			"Sprogmuo jau yra nukenksminamas."
 		
+		//881
+		"Cstrike_TitlesTXT_Game_Commencing"									"Žaidimas prasideda."
+		"Cstrike_TitlesTXT_Game_join_ct"									"%s1 prisijungė prie Anti-Teroristų."
+		"Cstrike_TitlesTXT_Game_join_ct_auto"								"%s1 prisijungė prie Anti-Teroristų. (automatiškai)"
+		"Cstrike_TitlesTXT_Game_join_terrorist"								"%s1 prisijungė prie Teroristų."
+		"Cstrike_TitlesTXT_Game_join_terrorist_auto"						"%s1 prisijungė prie Teroristų. (automatiškai)"
+		"Cstrike_TitlesTXT_Game_teammate_attack"							"%s1 užpuolė komandos narį."
+		
+		//---------------------------------------------------------------------------------------------------------------------
+		//
+		// New CZ strings start here and extend through the end of the file
+		//
+
+		// Place names used in bot chatter, and in location strings for player chat
+		
+		"BombsiteA"			"Bombavietė A"
+		"BombsiteB"			"Bombavietė B"
+		"BombsiteC"			"Bombavietė C"
+		"Hostages"			"Įkaitai"
+		"HostageRescueZone"	"Įkaitų gelbėjimo zona"
+		"VipRescueZone"		"VIP gelbėjimo zona"
+		"CTSpawn"			"CT pradžia"
+		"TSpawn"			"T pradžia"
+		"Bridge"			"Tiltas"
+		"Middle"			"Vidurys"
+		"House"				"Namas"
+		"Apartment"			"Apartamentai"
+		"Apartments"		"Apartamentai"
+		"Market"			"Turgus"
+		"Sewers"			"Kanalizacija"
+		"Tunnel"			"Tunelis"
+		"Ducts"				"Ortakiai"
+		"Village"			"Kaimas"
+		"Roof"				"Stogas"
+		"Upstairs"			"Viršutinis aukštas"
+		"Downstairs"		"Žemutiniame aukšte"
+		"Basement"			"Rūsys"
+		"Crawlspace"		"Pusrūsis"
+		"Kitchen"			"Virtuvė"
+		"Inside"			"Vidus"
+		"Outside"			"Išorė"
+		"Tower"				"Bokštas"
+		"WineCellar"		"Wine Cellar"
+		"Garage"			"Garage"
+		"Courtyard"			"Courtyard"
+		"Water"				"Water"
+		"FrontDoor"			"Front Door"
+		"BackDoor"			"Back Door"
+		"SideDoor"			"Side Door"
+		"BackWay"			"Back Way"
+		"FrontYard"			"Front Yard"
+		"BackYard"			"Back Yard"
+		"SideYard"			"Side Yard"
+		"Lobby"				"Lobby"
+		"Vault"				"Vault"
+		"Elevator"			"Elevator"
+		"DoubleDoors"		"Double Doors"
+		"SecurityDoors"		"Security Doors"
+		"LongHall"			"Long Hall"
+		"SideHall"			"Side Hall"
+		"FrontHall"			"Front Hall"
+		"BackHall"			"Back Hall"
+		"MainHall"			"Main Hall"
+		"FarSide"			"Far Side"
+		"Windows"			"Windows"
+		"Window"			"Window"
+		"Attic"				"Attic"
+		"StorageRoom"		"Storage Room"
+		"ProjectorRoom"		"Projector Room"
+		"MeetingRoom"		"Meeting Room"
+		"ConferenceRoom"	"Conference Room"
+		"ComputerRoom"		"Computer Room"
+		"BigOffice"			"Big Office"
+		"LittleOffice"		"Little Office"
+		"Dumpster"			"Dumpster"
+		"Airplane"			"Airplane"
+		"Underground"		"Underground"
+		"Bunker"			"Bunker"
+		"Mines"				"Mines"
+		"Front"				"Front"
+		"Back"				"Back"
+		"Rear"				"Rear"
+		"Side"				"Side"
+		"Ramp"				"Ramp"
+		"Underpass"			"Underpass"
+		"Overpass"			"Overpass"
+		"Stairs"			"Stairs"
+		"Ladder"			"Ladder"
+		"Gate"				"Gate"
+		"GateHouse"			"Gate House"
+		"LoadingDock"		"Loading Dock"
+		"GuardHouse"		"Guard House"
+		"Entrance"			"Entrance"
+		"VendingMachines"	"Vending Machines"
+		"Loft"				"Loft"
+		"Balcony"			"Balcony"
+		"Alley"				"Alley"
+		"BackAlley"			"Back Alley"
+		"SideAlley"			"Side Alley"
+		"FrontRoom"			"Front Room"
+		"BackRoom"			"Back Room"
+		"SideRoom"			"Side Room"
+		"Crates"			"Crates"
+		"Truck"				"Truck"
+		"Bedroom"			"Bedroom"
+		"FamilyRoom"		"Family Room"
+		"Bathroom"			"Bathroom"
+		"LivingRoom"		"Living Room"
+		"Den"				"Den"
+		"Office"			"Office"
+		"Atrium"			"Atrium"
+		"Entryway"			"Entryway"
+		"Foyer"				"Foyer"
+		"Stairwell"			"Stairwell"
+		"Fence"				"Fence"
+		"Deck"				"Deck"
+		"Porch"				"Porch"
+		"Patio"				"Patio"
+		"Wall"				"Wall"
+		"BoatBar"			"Boat Bar"
+		"BoatStorage"		"Boat Storage"
+		"CTBar"				"CT Bar"
+		"UpperCatwalks"		"Upper Catwalks"
+		"LowerCatwalks"		"Lower Catwalks"
+		"GroundLevel"		"Ground Level"
+		"LockerRoom"		"Locker Room"
+		"BackEntrance"		"Back Entrance"
+		"FrontEntrance"		"Front Entrance"
+		"SnipersNest"		"Sniper's Nest"
+		"BodyShop"			"Body Shop"
+		"BankInterior"		"Bank Interior"
+		"BombSite"			"Bombavietė"
+		"BankExterior"		"Bank Exterior"
+		"Street"			"Street"
+		"GasStation"		"Gas Station"
+		"SideEntrance"		"Side Entrance"
+		"PalaceInterior"	"Palace Interior"
+		"BackAlleys"		"Back Alleys"
+		"CTSideUpper"		"CT Side Upper"
+		"CTSideLower"		"CT Side Lower"
+		"TSideUpper"		"T Side Upper"
+		"TSideLower"		"T Side Lower"
+		"UpperCarousel"		"Upper Carousel"
+		"MidCarousel"		"Mid Carousel"
+		"LowerCarousel"		"Lower Carousel"
+		"CTCorridorDown"	"CT Corridor Down"
+		"CTCorridorUp"		"CT Corridor Up"
+		"TCorridorDown"		"T Corridor Down"
+		"TCorridorUp"		"T Corridor Up"
+		"LeftAlley"			"Left Alley"
+		"RightAlley"		"Right Alley"
+		"BackCourtyard"		"Back Courtyard"
+		"FrontCourtyard"	"Front Courtyard"
+		
 		
 		//1330
 		"Cstrike_Chat_CT_Dead"				"*MIRĘS*(Anti-Teroristai) %s1 :  %s2"
 		"Cstrike_Chat_T_Dead"				"*MIRĘS*(Teroristai) %s1 :  %s2"
 		"Cstrike_Name_Change"				"* %s1 pasikeitė vardą į %s2"
+		
+		//1357
+		"Cstrike_game_join_spectators"	"%s1 prisijungia prie žiūrovų\n"
+		"Cstrike_game_join_terrorist"	"%s1 prisijungia prie Teroristų pajėgų\n"
+		"Cstrike_game_join_ct"			"%s1 prisijungia prie Anti-Teroristų pajėgų\n"
+		
+		//1364
+		"SFUI_WPNHUD_Pistol"								"Pistoletai"
+		"SFUI_WPNHUD_SMG"									"SMG"
+		"SFUI_WPNHUD_Rifle"									"Šautuvai"
+		"SFUI_WPNHUD_Heavy"									"Sunkieji"
+		"SFUI_WPNHUD_Grenade"								"Granatos"
+		"SFUI_WPNHUD_SniperRifle"							"Saniperio Šautuvas"
+		"SFUI_WPNHUD_Sniper"								"Sniperis"
+		"SFUI_WPNHUD_Shotgun"								"Šratinis Šautuvas"
+		"SFUI_WPNHUD_DesertEagle"							"Dykumos Erelis"
+		"SFUI_WPNHUD_Deagle"								"Dykumos Erelis"
+		"SFUI_WPNHUD_Elites"								"Dvigubos beretės"
+		"SFUI_WPNHUD_Elite"									"Dvigubos beretės"
+		"SFUI_WPNHUD_HE_Grenade"							"Didelio sprogstamumo granata"
+		"SFUI_WPNHUD_HEGrenade"								"Didelio sprogstamumo granata"
+		"SFUI_WPNHUD_Knife"									"Peilis"
+		"SFUI_WPNHUD_Knife_T"								"Peilis"
+		"SFUI_WPNHUD_Knife_GG"								"Auksinis Peilis"
+		"SFUI_WPNHUD_Smoke_Grenade"							"Dūmų Granata"
+		"SFUI_WPNHUD_SmokeGrenade"							"Dūmų Granata"
+		"SFUI_WPNHUD_C4"									"Sprogmuo"
+		"SFUI_WPNHUD_Molotov"								"Molotovas"
+		"SFUI_WPNHUD_IncGrenade"							"Padegamoji Granata"
+		"SFUI_WPNHUD_Decoy"									"Masalo Granata"
+		"SFUI_WPNHUD_ASSAULTSUIT"							"Kevlaras + Šalmas"
+		"SFUI_WPNHUD_KEVLAR"								"Kevlaro Krūtinė"
+		"SFUI_WPNHUD_DEFUSER"								"Nukenksminimo Įranga"
+		"SFUI_WPNHUD_CUTTERS"								"Gelbėjimo Įranga"
+		"SFUI_WPNHUD_REVOLVER"								"R8 Revolveris"
+		"SFUI_WPNHUD_KnifeBayonet"							"Bajonetė"
+		"SFUI_WPNHUD_KnifeFlip"								"Apverčiamas peilis"
+		"SFUI_WPNHUD_KnifeGut"								"Žarnyno peilis"
+		"SFUI_WPNHUD_KnifeCSS"								"Klasikinis peilis"
+		"SFUI_WPNHUD_KnifeM9"								"M9 Bajonetė"
+		"SFUI_WPNHUD_KnifeKaram"							"Karambitas"
+		"SFUI_WPNHUD_KnifeTactical" 						"Medžiotojo peilis"
+		"SFUI_WPNHUD_Knife_Butterfly" 						"Drugelio Peilis"
+		"SFUI_WPNHUD_knife_falchion_advanced" 				"Falchion peilis"
+		"SFUI_WPNHUD_knife_push" 							"Šešėlių durklai"
+		"SFUI_WPNHUD_knife_survival_bowie" 					"Bowie peilis"
+		"SFUI_WPNHUD_Healthshot"							"Medicininė injekcija"
+		"SFUI_WPNHUD_Snowball"								"Sniego gniužtė"
+		
+		//1387
+		"SFUI_WPNHUD_Knife"			"Peilis"
+		"SFUI_WPNHUD_Knife_T"		"Peilis"
+		
+		//1527
+		"TabletNotification_HighlightedSectors"				"[{v:csgo_bind:bind_buymenu}] Pirkimo meniu"
+		"TabletNotification_NoDronesToControl"				"Šiuo metu nuotoliniu būdu pilotuojamų dronų nėra."
+		"TabletNotification_IncomingDelivery"				"Atkeliauja užsakymas"
+		"TabletNotification_ExplorationPayment"				"Tyrinėjimas +${d:exploreprice}"
+		"TabletNotification_ExplorationPayment_Bonus" 		"Tyrinėjimas +${d:exploreprice} & +${d:explorebonus}"
+		"TabletNotification_BombWaveMoney"					"Išgyvenimas +${d:surviveprice}"
+		"TabletNotification_BombWaveMoney_Bonus"			"Išgyvenimas +${d:surviveprice} & +${d:survivebonus}"
+		
+		//1555
+		"TabletBuyMenu"										"Planšetės automatinis pristatymas"
+		"TabletKnife"										"Peilis"
+		"TabletHintBuy"										"[{v:csgo_bind:bind_buymenu}] Pirkimo menių"
+		"TabletHintMap"										"[{v:csgo_bind:bind_teammenu}] Žemėlapis"
+		"TabletHintClose"									"[{v:csgo_bind:bind_showscores}] Uždaryti"
 	
 		// Round Win Panel
 		
@@ -352,13 +588,55 @@
 		"winpanel_draw"					"Lygiosios"
 
 		"winpanel_mvp_award"			"MVP: %s1"
-		"winpanel_mvp_award_kills"		"MVP: %s1 "
-		"winpanel_mvp_award_bombplant"	"MVP: %s1 už daugiausiai eliminavimų"
+		"winpanel_mvp_award_kills"		"MVP: %s1 už daugiausiai eliminavimų"
+		"winpanel_mvp_award_bombplant"	"MVP: %s1 už bombos padėjimą"
 		"winpanel_mvp_award_bombdefuse"	"MVP: %s1 už bombos nukenksminimą"
 		"winpanel_mvp_award_rescue"		"MVP: %s1 už įkaito išlaisvinimą"
 		"winpanel_mvp_award_score"		"MVP: %s1 už aukščiausią įvertinimą"
 		"winpanel_mvp_award_gungame"	"Ginklavimosi varžybų nugalėtojas: %s1"
 		"winpanel_mvp_survivor"			"%s1 yra nugalėtojas ir vienintelis išgyvenęs žmogus!"
+		
+		
+		//2228
+		"CancelDeleteItem"		"ATŠAUKTI"
+		"YesDeleteItem"			"TAIP, IŠMESTI"
+		
+		// Loadout slots
+		
+		//2253
+		"LoadoutSlot_Melee"									"Artimos kovos ginklai"
+		"LoadoutSlot_C4"									"C4"
+		"LoadoutSlot_Secondary"								"Pistoletai"
+		"LoadoutSlot_SMG"									"SMG"
+		"LoadoutSlot_Rifle"									"Šautuvai"
+		"LoadoutSlot_Heavy"									"Sunkieji"
+		"LoadoutSlot_Grenade"								"Granatos"
+		"LoadoutSlot_Equipment"								"Įranga"
+		"LoadoutSlot_clothing"								"Pirštinės"
+		"LoadoutSlot_clothing_hands"						"Pirštinės"
+
+		"LoadoutSlot_Flair"									"Eksponatai"
+		"LoadoutSlot_Spray"									"Grafičiai"
+		"LoadoutSlot_Spray0"								"Grafičiai"
+		"LoadoutSlot_customplayer"							"Agentai"
+		
+		//2269
+		"LoadoutSlot_MusicKit"								"Muzikos rinkiniai"
+
+		// Weapon Rarity Names
+		"Rarity_Default_Weapon"								"Įprastas"
+		"Rarity_Common_Weapon"								"Vartotojo laipsnis"
+		"Rarity_Uncommon_Weapon"							"Pramoninės klasės"
+		"Rarity_Rare_Weapon"								"Militarinės klasės"
+		"Rarity_Mythical_Weapon"							"Apribotas"
+		"Rarity_Legendary_Weapon"							"Įslaptintas"
+		"Rarity_Ancient_Weapon"								"Užslėptas"
+		"Rarity_Contraband_Weapon"							"Kontrabandinis"
+		"Rarity_Arcana_Weapon"								"NEVARDINTAS"
+		"CSGO_FilterRarity"									"Visos retenybės"
+		
+		//2309
+		"CSGO_Type_Knife"							"Peilis"
 	
 		//4675
 		"Place_Name_1st"		"Čempionai"
@@ -401,12 +679,91 @@
 		"CSGO_set_vertigo"						"Kolekcija „Vertigo“"
 		"CSGO_set_inferno"						"Kolekcija „Inferno“"
 		
+		//5530
+		"quest_LoadoutSlot_Melee"										"peilis"
+		
+		//5593
+		"quest_target_knife"											"peilis"
+		
+		//2657
+		"TF_Tag_Category_Quality"	"Kategorija"
+		"Tag_Category_Rarity"		"Kokybė"
+		
+		"P2Econ_CANCEL"					"ATŠAUKTI"
+		
+		//27723
+		"Cancel"						"Atšaukti"
+		
+		// game mode names
+
+		//27827
+		"SFUI_GameMode"										"Režimas"
+		"SFUI_GameModeClassic"								"Klasikinis"
+		"SFUI_GameModeCasual"								"Paprastas"
+		"SFUI_GameModeCompetitiveSP"						"Konkurencija"
+		"SFUI_GameModeCompetitive"							"Konkurencija"
+		"SFUI_GameModeCompetitiveTeams"						"Pirmaeilė konkurencija"
+		"SFUI_GameModeSurvival"								"Pavojaus zona"
+		"SFUI_GameModeScrimComp2v2"							"Sparnininkas"
+		"SFUI_GameModeScrimComp5v5"							"Ginklų ekspertas"
+		"SFUI_GameModeSkirmish"								"Karo Žaidimai"
+		"SFUI_GameModeTraining"								"Treniruotė"
+		"SFUI_Deathmatch"									"Mirties Rungtynės"
+		"SFUI_Cooperative"									"Sargybinis"
+		"SFUI_CoopMission"									"Co-op Strike"
+		"SFUI_GameModeCustom"								"Pasirinktinis"
+		"SFUI_GameModeAll"									"Visi vemėlapiai"
+		"SFUI_GameModeAny"									"Bet koks režimas"
+		"SFUI_GameModeGungameProgressive"					"Ginklavimosi varžybos"
+		"SFUI_GameModeGungameTrBomb"						"Griovimas"
+		"SFUI_GameModeDeathmatch"							"Mirties rungtynės"
+		"SFUI_GameModeRetakes"								"Perimimas"
+		"SFUI_GameModeDM_FreeForAll"						"Kiekvienas už save"
+
+		"SFUI_GameMode_casual"								"Klasikinis"
+		"SFUI_GameMode_competitive"							"Konkurencija"
+		"SFUI_GameMode_scrimcomp2v2"						"Sparnininkas"
+		"SFUI_GameMode_scrimcomp5v5"						"Ginklų Ekspertas"
+		"SFUI_GameMode_skirmish"							"Karo Žaidimas"
+		"SFUI_GameMode_training"							"Treniruotė"
+		"SFUI_GameMode_gungameProgressive"					"Ginklų Ekspertas"
+		"SFUI_GameMode_GungameTrBomb"						"Griovimas"
+		"SFUI_GameMode_deathmatch"							"Mirties Rungtynės"
+		"SFUI_GameMode_cooperative"							"Sargybinis"
+		"SFUI_GameMode_coopmission"							"Co-op Strike"
+		"SFUI_GameMode_Survival"							"Pavojaus Zona"
+		"SFUI_GameMode_custom"								"Pasirinktinis"
+		
+		// nice map group names
+		
+		//27975
+		"SFUI_Mapgroup_bomb"		"Nukenksmintojų grupė"
+		"SFUI_Mapgroup_skirmish"	"Karo žaidimų grupė"
+		"SFUI_Mapgroup_hostage"		"Įkaitų grupė"
+		"SFUI_Mapgroup_armsrace"	"Ginklavimosi varžybų grupė"
+		"SFUI_Mapgroup_demolition"	"Griovimo grupė"
+		"SFUI_Mapgroup_allclassic"	"Klasikinė grupė"
+		"SFUI_Mapgroup_lowgravity"	"Žemos gravitacijos grupė"
+		"SFUI_Mapgroup_dm_other"	"Visi kiti žemėlapiai"
 		
 		//27984
 		"SFUI_Mapgroup_active" "Aktyviosios tarnybos grupė"
 		"SFUI_Mapgroup_reserves" "Atsarginių grupė"
 		"SFUI_Mapgroup_casualdelta" "Nukenksmintojų grupė Delta"
 		"SFUI_Mapgroup_casualsigma" "Nukenksmintojų grupė Sigma"
+		
+		//28367
+		"SFUI_MainMenu_Stats"				"CS:GO 360 STATISTIKA"
+		
+		//28770
+		"SFUI_InvPanel_sort_inv_sort_rarity"		"Kokybė"
+		"SFUI_InvPanel_sort_leastrare"		"Atvirkštinė kokybė"
+		
+		//28822
+		"SFUI_InvTooltip_melee"								"Peilis"
+		
+		//29013
+		"SFUI_Crafting_Cancel"				"Atšaukti"
 	
 	
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -443,6 +800,109 @@
 		"CSGO_Watch_Cat_Tournament_20" "Rio 2022"
 		"CSGO_Watch_Cat_Tournament_21" "Paryžius 2023"
 		
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		//29866
+		"CSGO_Inventory_Weapon_Category_Any"			"Visi"
+		"CSGO_Inventory_Weapon_Category_Pistols"		"Pistoletai"
+		"CSGO_Inventory_Weapon_Category_Rifles"			"Graižtviniai"
+		"CSGO_Inventory_Weapon_Category_Heavy"			"Sunkieji"
+		"CSGO_Inventory_Weapon_Category_Smgs"			"Pistoletai kulkosvaidžiai"
+		"CSGO_Inventory_Weapon_Category_Gear"			"Įrankiai"
+		"CSGO_Inventory_Weapon_Category_Grenades"		"Granatos"
+		"CSGO_Inventory_Weapon_Category_None"			"Nė vieno"
+	
+		//29875
+		"CSGO_Inventory_Team_Any"							"Betkuri"
+		"CSGO_Inventory_Team_CT"							"Anti-Teroristai"
+		"CSGO_Inventory_Team_T"								"Teroristai"
+		
+		//29891
+		"SFUI_HelpMenu_SettingsButton"				"ŽAIDIMO NUSTATYMAI"	[$WIN32||$OSX]
+		"SFUI_HelpMenu_VideoSettings"				"VIDEO NUSTATYMAI"
+		"SFUI_HelpMenu_AudioSettings"				"GARSO NUSTATYMAI"
+		"SFUI_HelpMenu_CreditsButton"				"TITRAI"
+		
+		//30383
+		"CSGO_Collectible_GlobalGeneral2020"		"2020 m. tarnybos medalis"
+		"CSGO_Collectible_Desc_GlobalGeneral2020"	"Skiriama už išskirtinę tarnybą ir pasiekimus 2020 m."
+		
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//Message Box
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		//30549
+		"SFUI_MBox_OKButton"		"Gerai"
+		"SFUI_MBox_CancelButton"	"Atšaukti"
+		
+		//30662
+		"SFUI_PlayerDetails_Cancel"		"ATŠAUKTI"
+		
+		
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//HUD: Help/Medals/Defuse Info Panel
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		//30972
+		"SFUIHUD_InfoPanel_PriorityMsgTitle"	"Įspėjimas"
+
+		"SFUIHUD_InfoPanel_DefuseTitle"			"Nukenksminimo laikas:"
+		"SFUIHUD_InfoPanel_DefuseText"			"Jūs nukenksminate bombą."
+		"SFUIHUD_InfoPanel_DefuseText_NoKit"	"Jūs nukenksminate bombą\nbe įrankių."
+		"SFUIHUD_InfoPanel_Spec_DefuseText"			"%s1 nukenksmina bombą."
+		"SFUIHUD_InfoPanel_Spec_DefuseText_NoKit"	"%s1 nukenksmina bombą\nbe įrankių."
+		
+		
+		// Panorama strings
+		
+		//31098
+		"PANOHUD_Spectate_Navigation_Camera"				"[{v:csgo_bind:bind_jump}] Kamera "
+		"PANOHUD_Spectate_Navigation_Arrows_Prev"			"[{v:csgo_bind:bind_attack2}] Preitas žaidėjas"
+		"PANOHUD_Spectate_Navigation_Arrows"				"[{v:csgo_bind:bind_attack}] Sekantis žaidėjas"
+		"PANOHUD_Spectate_Navigation_Replay_Death"			"<font color='#ddbb22'><b>[{v:csgo_bind:bind_reload}] Žudiko pakartojimas</b></font>"
+		"PANOHUD_Spectate_Navigation_Cancel_Replay"			"[{v:csgo_bind:bind_jump}] Pabaigti pakartojimą"
+		"PANOHUD_Spectate_Navigation_Control_Bot"			"[{v:csgo_bind:bind_use}] Kontroliuoti botą "
+		"PANOHUD_Spectate_Navigation_New_ToggleXRay"		"[{v:csgo_bind:bind_slot12}] Rentgenas "
+		"PANOHUD_Spectate_Navigation_ToggleGraphs"			"[{v:csgo_bind:bind_lastinv}] Grafikai "
+		"PANOHUD_Spectate_Navigation_InspectWeapon"			"[{v:csgo_bind:bind_lookatweapon}] Apžiūrėti ginklą "
+		"PANOHUD_Spectate_Navigation_New_Director_On"		"[{v:csgo_bind:bind_radio}] Įjungti auto-dirigentas "
+		"PANOHUD_Spectate_Navigation_New_Director_Off"		"[{v:csgo_bind:bind_radio}] Išjungti auto-dirigentą "
+		"PANOHUD_Spectate_Navigation_New_Cameraman_On"		"[{v:csgo_bind:bind_radio}] Įjungti kameros operatorių "
+		"PANOHUD_Spectate_Navigation_ToggleSpec"			"[{v:csgo_bind:bind_drop}] Mini švieslentė "
+		"PANOHUD_Spectate_Navigation_ToggleOverview"		"[{v:csgo_bind:bind_duck}] Apžvalga iš viršaus "
+		"PANOHUD_GhostBecomeSpectator"						"Spauskite [%s1] kad patapti žiūrovu"
+		
+		//31115
+		"SFUIHUD_Spectate_You_Are_Dead"						"<font color=\"%s1\">Sekama %s2</font>"
+		"SFUIHUD_Spectate_RoundsLeft"						"Raundas %s1"
+		"SFUIHUD_Spectate_RoundsLeftOvertime"				"OT %s1  (%s2)"
+		
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//Win Panel
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		//31274
+		"SFUI_WinPanel_CT_Win"			"Anti-Teroristai laimėjo"
+		"SFUI_WinPanel_T_Win"			"Teroristai laimėjo"
+		"SFUI_WinPanel_Team_Win_Team"		"%s1 laimėjo raundą"
+		"SFUI_WinPanel_Coop_Mission_Win"		"Misija įvykdyta!"
+		"SFUI_WinPanel_Coop_Mission_Lose"		"Misija žlugo!"
+		
+		//31664
+		"SFUI_KnifeSlot"				"Peilis"
+		
+		"SFUI_Settings_Network_Bandwidth_Min"	   "Labai suvaržyta"
+		"SFUI_Settings_Network_Bandwidth_384kbps" "Žemiau 384 kbps"
+		"SFUI_Settings_Network_Bandwidth_512kbps" "Žemiau 512 kbps"
+		"SFUI_Settings_Network_Bandwidth_768kbps" "Žemiau 768 kbps"
+		"SFUI_Settings_Network_Bandwidth_1024kbps" "Žemiau 1,0 Mbps"
+		"SFUI_Settings_Network_Bandwidth_1536kbps" "Iki 1,5 Mbps"
+		"SFUI_Settings_Network_Bandwidth_20mbps" "Iki 2,0 Mbps"
+		"SFUI_Settings_Network_Bandwidth_25mbps" "Iki 2,5 Mbps"
+		"SFUI_Settings_Network_Bandwidth_30mbps" "3 Mbps"
+		"SFUI_Settings_Network_Bandwidth_40mbps" "4 Mbps"
+		"SFUI_Settings_Network_Bandwidth_Max" "Nesuvaržyta"
+		
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	//Buy Menu
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -452,7 +912,7 @@
 		"BuyMenu_HeavyWeapons"								"SUNKIEJI"
 		"BuyMenu_Rifles"									"GRAIŽTVINIAI GINKLAI"
 		"BuyMenu_Equipment"									"ĮRANGA"
-		"BuyMenu_Loadouts"									"IŠSIDĖSTYMAS"
+		"BuyMenu_Loadouts"									"EKIPUOTĖS"
 		"BuyMenu_SMGs"										"SMG"
 		"BuyMenu_CQB"										"CQB"
 		"BuyMenu_Grenades"									"GRANATOS"
@@ -465,28 +925,140 @@
 		"BuyMenu_MaxItemsOfType"							"Jūs galite nešiotis tik %s1 šio tipo daiktą"
 		"BuyMenu_AlreadyCarrying"							"Yra dabartiniame inventoriuje."
 		"BuyMenu_Back"										"[{v:csgo_bind:bind_cancelselect}] Atgal"
+		
+		// TRUST FACTOR WARNING
+		
+		//32785
+		"SFUI_QMM_ERROR_X_AccountWarningTrustMinor"			"Atsargiai: %s1 turi žemėsnį patikimumo lygį nei jūs."
+		"SFUI_QMM_ERROR_X_AccountWarningTrustMajor"			"Perspėjimas: %s1 turi daug žemesnį patikimumo lygį nei jūsų."
+		
+		//32797
+		"SFUI_QMM_State_find_searching"				"Ieškome žaidėjų ir serverių..."
+		
+		"SFUI_LobbyBrowser_Join"		"PRISIJUNGTI"
+		"SFUI_LobbyBrowser_Back"		"GRĮŽTI"
+		"SFUI_LobbyBrowser_CreateLobby"		"SUKURTI FOJĖ"
+		"SFUI_LobbyBrowser_Custom"			"PASIRINKTINIS"
+		
+		//33216
+		"SFUI_Lobby_StatusInvited"			"<font color='#4F6782'>Invited</font>"
+		"SFUI_Lobby_StatusInLobby"			"Fojė"
+		"SFUI_Lobby_StatusInLevel"			"ŽLygyje"
+		"SFUI_Lobby_StatusInGame"			"Žaidžia kitą žaidimą"
+		"SFUI_Lobby_StatusPlayingCSGO"		"Žaidžia CS:GO"
+		"SFUI_Lobby_StatusWatchingCSGO"		"Žiūri CS:GO mačą"
+		"SFUI_Lobby_StatusOverwatch"		"CS:GO Žaidimų peržiūros sesijoje"
+		"SFUI_Lobby_StatusOffline"			"Atsijungęs"
+		"SFUI_Lobby_StatusOnline"			"Prisijungęs"
+		"SFUI_Lobby_StatusSnooze"			"Snaudžia"
+		"SFUI_Lobby_StatusBusy"				"Užimtas"
+		"SFUI_Lobby_StatusAway"				"Išvykęs"
+		
+		//34791
+		"Player_DisconnectReason_Kicked"					"Išmestas iš sesijos"
+		
+		"Skirmish_CC_FS_name"			"Skraidantis žvalgas"
+		"Skirmish_CC_FS_rules"			"· Galima naudoti tik SSG08 ir peilį.\n· Gravitacija sumažinta.\n· Padidintas tikslumas.\n· Laimėkite raundus įvykdę žemėlapio tikslą.\n"
+		"Skirmish_CC_FS_desc"			"· Galima naudoti tik SSG08 ir peilį<br>· Gravitacija labai sumažinta<br>· Ginklų tikslumas labai padidintas"
+		"Skirmish_CC_FS_details"		"Pasinaudokite priedanga ir dideliu judrumu, kad nugalėtumėte šiame aukštai skraidančių snaiperių mūšyje."
+		
+		//35307
+		"Skirmish_CC_RT_name"			"Perimimas"
+		"Skirmish_CC_RT_rules"			"· Bomba buvo padėta!!\n· Perimkite arba apginkite bombavietę nuo priešininkų komandos.\n· Laimėk 8 raundus šiame geriausių iš 15.\n· 3 teroristai prieš 4 anti-teroristus.\n· Pasirinkite rinkinį naudodami rinkinių korteles.\n· Patobulinkite savo ekipuotę laimėdami raundo MVP.\n· Ginklai ir ekipuotė neperkeliami iš vieno raundo į kitą."
+		"Skirmish_CC_RT_desc"			"· Bomba buvo padėta!<br>· Perimkite arba apginkite bombavietę nuo priešininkų komandos<br>· Pasirinkite ekipuotę naudodami ekipuočių korteles"
+		"Skirmish_CC_RT_details"		"Atsiimkite arba apginkite bombavietę nuo priešininkų komandos! Atidžiai pasirinkite savo ekipuotę!"
+
 	
 		
-	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Party 
-	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-		//37700
-		"party_found_match"									"Rastas žaidimas"
-		"party_play"										"ŽAISTI CS:GO"
-		"party_play_client"									"ŽAIDIMO NUSTATYMAI"
-		"party_starting_match"								"Pradedamas žaidimas"
-		"party_search"										"Pradėti paiešką"
-		"party_start_local"									"Pradėti žaidimą"
-		"party_find"										"Ieškomas žaidimas..."
-		"party_match_settings"								"Žaidimo nustatymai"
-		"party_waiting_lobby_leader"						"Laukiama komandos lyderio..."
-		"party_chat_placeholder"							"Siųsti žinutę"
-		"party_chat_placeholder_empty_lobby"				"Pakviesti draugus pokalbiui"
-		"party_player_invited"								"Pakviestas"
-		"party_lobby_started"								"Sukurta komanda, paspauskite, kad kalbėtumėtės"
-		"party_lobby_connected"								"Prisijungta prie komandos. Paspauskite, kad atidarytumėte pokalbį"
+		
+		//////////////////////////////////////////////////////////////////////////////////////////
+		//
+		// Panorama localization
+		//
+		//
+		
+	//36169
+	"UI_Cancel"		"ATŠAUKTI"
+	"UI_Dismiss" 	"ATSISAKYTI"
+	"UI_OK"		"GERAI"
+	"UI_Done"	"ATLIKTA"
 	
+	//36219
+	"UI_ConfirmExitTitle"			"Patvirtinti išėjimą"
+	"UI_ConfirmExitMessage"			"Ar tikrai norite išeiti?"
+	"UI_Quit"						"IŠEITI"
+	"UI_Return"						"GRĮŽTI"
+
+	"Month_January" "Sausis"
+	"Month_February" "Vasaris"
+	"Month_March" "Kovas"
+	"Month_April" "Balandis"
+	"Month_May" "Gegužė"
+	"Month_June" "Birželis"
+	"Month_July" "Liepa"
+	"Month_August" "Rugpjūtis"
+	"Mėnuo_Rugsėjis" "Rugsėjis"
+	"Month_October" "Spalis"
+	"Month_November" "Lapkritis"
+	"Month_December" "December"
+	
+	//36521
+		"CSGO_Home"											"PAGRINDINIS"
+		"CSGO_MainMenu_Play"								"ŽAISTI"
+		"CSGO_MainMenu_Inventory"							"INVENTORIUS"
+		"CSGO_MainMenu_Watch"								"ŽIŪRĖTI"
+		"CSGO_MainMenu_Awards"								"APDOVANOJIMAI"
+		"CSGO_MainMenu_Options"								"NUSTATYMAI"
+		"CSGO_MainMenu_Online"								"PIRŠLYBOS"
+		"CSGO_MainMenu_Offline"								"VIETINIS ŽAIDIMAS"
+		"CSGO_MainMenu_QuickMatchButton"					"GREITAS ŽAIDIMAS"
+		"CSGO_MainMenu_CustomMatchButton"					"SURASTI ŽAIDIMĄ"
+		"CSGO_MainMenu_BrowseServersButton"					"NARŠYTI BENDRUOMENĖS SERVERIUS"
+		"CSGO_MainMenu_ReportServer"        				"PRANEŠTI APIE ŠĮ SERVERĮ"
+		"CSGO_MainMenu_CommunityQuickplay"					"BENDRUOMENĖS GREITAS ŽAIDIMAS"
+		"CSGO_MainMenu_FriendsMatchButton"					"ŽAISTI SU DRAUGAIS"
+		"CSGO_MainMenu_InsigniaMatchButton"					"ŽAISTI SU EMBLEMA"
+		"CSGO_MainMenu_WithBotsButton"						"ATSIJUNGUS"
+		"CSGO_MainMenu_Training"							"TRENIRUOTĖ"
+		"CSGO_MainMenu_LeaderboardsButton"					"LYGŲ LENTELĖ"
+		"CSGO_MainMenu_AchievementsButton"					"PASIEKIMAI"
+		"CSGO_MainMenu_StatsButton"							"Statistika"
+		"CSGO_MainMenu_ControlsButton"						"Valdymo pultelis"
+		"CSGO_MainMenu_MouseKeyboardButton"					"Klaviatūra ir pelė"
+		"CSGO_MainMenu_SettingsButton"						"Žaidimo nustatymai"
+		"CSGO_MainMenu_VideoSettings"						"Vaizdo nustatymai"
+		"CSGO_MainMenu_AudioSettings"						"Garso nustatymai"
+		"CSGO_MainMenu_CreditsButton"						"Kreditai"
+		
+		//36571
+		"store_tab_newstore"								"Nauji Leidiniai"
+		"store_tab_prime"									"Pirminis"
+		"store_tab_store"									"Parduotuvė"
+		"store_tab_coupons"									"Kuponas"
+		"store_tab_market"									"Turgus"
+		"store_tab_keys"									"Raktai"
+		"store_tab_operation"								"Operacija {s:operation_name}"
+		"store_tab_tournament"								"{s:tournament_name}"
+		"store_tournament_price_reduction"					"{s:reduction} {s:reduction_name}"
+		"store_tournament_reduction_strickers"				"Turnyro Lipdukai!"
+		"store_tab_proteams"								"2020 Komandų Lipdukai"
+
+		//36583
+		"store_btn_filter_coupons_not_found"				"Nepavyko rasti kuponų su šiuo pavadinimu"
+		"store_btn_filter_coupons"							"Ieškoti Kuponų"
+		"store_btn_filter_coupons_browse"					"Naršyti Kuponus"
+		
+		"inv_sort_age"						"Naujausia"
+		"inv_sort_rarity"					"Kokybė"
+		"inv_sort_alpha"					"Pagal abėcėlę"
+		"inv_sort_slot"						"Pagal tipą"
+		"inv_sort_collection"				"Kolekcija"
+		"inv_sort_equipped"					"Užsidėtas"
+		"inv_sort_wear"						"Nusidevėjimas"
+		"inv_sort_paint"					"Dažų rinkinys"
+		"inv_sort_quality"					"Kokybė"
+	
+		
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	//Play menu
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -509,7 +1081,26 @@
 	
 		//37578
 		"match_ready_accept"								"PATVIRTINTI"
-	
+		
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Party 
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		//37700
+		"party_found_match"									"Rastas žaidimas"
+		"party_play"										"ŽAISTI CS:GO"
+		"party_play_client"									"ŽAIDIMO NUSTATYMAI"
+		"party_starting_match"								"Pradedamas žaidimas"
+		"party_search"										"Pradėti paiešką"
+		"party_start_local"									"Pradėti žaidimą"
+		"party_find"										"Ieškomas žaidimas..."
+		"party_match_settings"								"Žaidimo nustatymai"
+		"party_waiting_lobby_leader"						"Laukiama komandos lyderio..."
+		"party_chat_placeholder"							"Siųsti žinutę"
+		"party_chat_placeholder_empty_lobby"				"Pakviesti draugus pokalbiui"
+		"party_player_invited"								"Pakviestas"
+		"party_lobby_started"								"Sukurta komanda, paspauskite, kad kalbėtumėtės"
+		"party_lobby_connected"								"Prisijungta prie komandos. Paspauskite, kad atidarytumėte pokalbį"
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	//Anti-Addiction
@@ -582,6 +1173,19 @@
 		"tooltip_join_public_lobby"							"Prisijunkite prie viešos komandos"
 		"tooltip_suggested_lobby"							"Šis komanda atvira tik „Steam“ grupės nariams."
 		
+		
+		
+		//popup Subscription	
+		
+		//37316
+		"popup_subscription_desc"			"Gilinkitės į konkurencines ir sparnininko rungtynes.\nCS:GO 360 statistiką galima įsigyti kaip nuolatinę mėnesio prenumeratą."
+		"popup_subscription_stats_hub"		"CS:GO 360 statistikos centras"
+		"popup_subscription_stats_hub_desc"	"Naršykite visą konkurencinių, sparnininko, pirmaeilių rungtynių statistiką vienoje vietoje. Diagramoje atvaizduokite savo progresą viename mače ar savo karjeroje.\n\nVisą anksčiau surinktą rungtynių statistiką galite peržiūrėti čia. Suaktyvinkite prenumeratą, kad matytumėte daugiau!"
+		"popup_subscription_probability"			"Raundo laimėjimo tikimybė"
+		"popup_subscription_probability_desc"		"Maksimaliai išnaudokite savo galimybes. Pažiūrėkite, kaip klostėsi ankstesnis raundas, ir sužinokite, kaip kiekvienas nužudymas pakeičia jūsų galimybes laimėti."
+		"popup_subscription_lastmatch"			"Paskutinių rungtynių ataskaita"
+		"popup_subscription_lastmatch_desc"		"Iš naujo išgyvenkite paskutines rungtynes su išsamia statistika pagrindiniame meniu."
+		
 		//37800
 		"tooltip_invite"				"Pakvieskite draugą žaisti"
 		"tooltip_Join"					"Prisijunkite prie draugo"
@@ -608,34 +1212,6 @@
 		"tooltip_friend_invited_you" "Kvietimas iš <b>{s:friendname}</b>"
 		"tooltip_lobby_leader_name" "{s:friendname}"
 
-		//36521
-		"CSGO_Home"											"PAGRINDINIS"
-		"CSGO_MainMenu_Play"								"ŽAISTI"
-		"CSGO_MainMenu_Inventory"							"INVENTORIUS"
-		"CSGO_MainMenu_Watch"								"ŽIŪRĖTI"
-		"CSGO_MainMenu_Awards"								"APDOVANOJIMAI"
-		"CSGO_MainMenu_Options"								"NUSTATYMAI"
-		"CSGO_MainMenu_Online"								"PIRŠLYBOS"
-		"CSGO_MainMenu_Offline"								"VIETINIS ŽAIDIMAS"
-		"CSGO_MainMenu_QuickMatchButton"					"GREITAS ŽAIDIMAS"
-		"CSGO_MainMenu_CustomMatchButton"					"SURASTI ŽAIDIMĄ"
-		"CSGO_MainMenu_BrowseServersButton"					"NARŠYTI BENDRUOMENĖS SERVERIUS"
-		"CSGO_MainMenu_ReportServer"        				"PRANEŠTI APIE ŠĮ SERVERĮ"
-		"CSGO_MainMenu_CommunityQuickplay"					"BENDRUOMENĖS GREITAS ŽAIDIMAS"
-		"CSGO_MainMenu_FriendsMatchButton"					"ŽAISTI SU DRAUGAIS"
-		"CSGO_MainMenu_InsigniaMatchButton"					"ŽAISTI SU EMBLEMA"
-		"CSGO_MainMenu_WithBotsButton"						"ATSIJUNGUS"
-		"CSGO_MainMenu_Training"							"TRENIRUOTĖ"
-		"CSGO_MainMenu_LeaderboardsButton"					"LYGŲ LENTELĖ"
-		"CSGO_MainMenu_AchievementsButton"					"PASIEKIMAI"
-		"CSGO_MainMenu_StatsButton"							"Statistika"
-		"CSGO_MainMenu_ControlsButton"						"Valdymo pultelis"
-		"CSGO_MainMenu_MouseKeyboardButton"					"Klaviatūra ir pelė"
-		"CSGO_MainMenu_SettingsButton"						"Žaidimo nustatymai"
-		"CSGO_MainMenu_VideoSettings"						"Vaizdo nustatymai"
-		"CSGO_MainMenu_AudioSettings"						"Garso nustatymai"
-		"CSGO_MainMenu_CreditsButton"						"Kreditai"
-
 		"CSGO_PauseMenu_OpenLoadout_Competitive"			"INVENTORIUS <span class=\"PauseMenuSmallText\">(išjungti konkurencijos stiliaus žaidime)</span>"
 		"CSGO_PauseMenu_OpenLoadout_Disabled"				"INVENTORIUS <span class=\"PauseMenuSmallText\">(išjungti, kol jūs esate gyvas(-a))</span>"
 
@@ -658,22 +1234,35 @@
 		"CSGO_Notice_Alert_Freeze_Pause"					"ŽAIDIMAS SUSTABDYTAS"
 
 		"CSGO_FriendsCountLabel"							"{d:num_friends} Prisijungę"
+		
+		//38479
+		"Survival_TeammateRespawned"						"Komandos narys atgimė!"
+		"Survival_RespawnEndWarning"						"Atgimimo pabaiga po {t:d:timeleft}"
+		"Survival_RespawningDisabled"						"Daugiau jokių atgimimų!"
+		"Survival_Respawn_Cooldown_Too_Long"				"Daugiau jokių atgimimų!"
+		
+		//38862
+		"playerstats_link"						"Tvarkyti prenumeratą"
+		"playerstats_link_reactivate"			"Atnaujinti prenumeratą"
+		"playerstats_link_get"					"Prenumeruoti"
+		
+		//38870
+		"playerstats_subscription_buy_button"			"AKTYVUOTI MĖNESINĘ PRENUMERATĄ\n{s:price} / MĖNESIUI"
+		
+		//////////////////////////////////////////////////////////////////
+		//
+		//	WIN PANEL
+		//
+		///////////////////////////////////////////////////////////
 
-		"store_tab_newstore"								"Nauji Leidiniai"
-		"store_tab_prime"									"Pirminis"
-		"store_tab_store"									"Parduotuvė"
-		"store_tab_coupons"									"Kuponas"
-		"store_tab_market"									"Turgus"
-		"store_tab_keys"									"Raktai"
-		"store_tab_operation"								"Operacija {s:operation_name}"
-		"store_tab_tournament"								"{s:tournament_name}"
-		"store_tournament_price_reduction"					"{s:reduction} {s:reduction_name}"
-		"store_tournament_reduction_strickers"				"Turnyro Lipdukai!"
-		"store_tab_proteams"								"2020 Komandų Lipdukai"
-
-		"store_btn_filter_coupons_not_found"				"Nepavyko rasti kuponų su šiuo pavadinimu"
-		"store_btn_filter_coupons"							"Ieškoti Kuponų"
-		"store_btn_filter_coupons_browse"					"Naršyti Kuponus"
+		"Panorama_winpanel_mvp_award"			"MVP: {s:mvp}"
+		"Panorama_winpanel_mvp_award_kills"		"MVP: {s:mvp} už daugiausiai eliminavimų"
+		"Panorama_winpanel_mvp_award_bombplant"	"MVP: {s:mvp} už bombos padėjimą"
+		"Panorama_winpanel_mvp_award_bombdefuse"	"MVP: {s:mvp} už bombos nukenksminimą"
+		"Panorama_winpanel_mvp_award_rescue"		"MVP: {s:mvp} už įkaito išlaisvinimą"
+		"Panorama_winpanel_mvp_award_score"		"MVP: {s:mvp} už aukščiausią įvertinimą"
+		"Panorama_winpanel_mvp_award_gungame"	"{s:mvp}"
+		"Panorama_winpanel_mvp_winner"			"{s:mvp}"
 		
 		//////////////////////////////////////////////////////////////////
 		//
@@ -681,6 +1270,7 @@
 		//
 		///////////////////////////////////////////////////////////
 		
+		//39303
 		"Panorama_SurvivalEndOfMatch_ShowStats"			"[{v:csgo_bind:bind_jump}] rodyti mačo statistiką"
 		"Panorama_Freeze_Cancel_Start_Replay"			"[{v:csgo_bind:bind_jump}] praleisti"
 		"Panorama_Freeze_Cancel_Replay" 				"[{v:csgo_bind:bind_jump}] atšaukti peržiūrą"
@@ -741,8 +1331,8 @@
 		"FriendsList_nodata_recents_title"					"Pastarieji komandos nariai"
 		"FriendsList_nodata_requests_title"					"Kvietimai draugauti"
 		"FriendsList_nodata_requests"						"Jūs neturite laukiamų arba išsiustų draugų pakvietimų.\n"
-		"FriendsList_nodata_lobbies_title"					"Artimi fojė"
-		"FriendsList_nodata_advertising_title"				"Ieškoma kad žaisti"
+		"FriendsList_nodata_lobbies_title"					"Netoliese esančios komandos"
+		"FriendsList_nodata_advertising_title"				"Ieškoma žaidimui"
 		"FriendsList_No_Steam_Logon_title"					"Jūs esate neprisijungęs"
 
 		
@@ -765,7 +1355,7 @@
 		"play_settings_competitive_dialog_32"				"Trumpas žaidimas"
 		"play_settings_competitive_dialog_32_desc"			"Laimėkite 9 raundus, kad laimėti žaidimą"
 		"play_settings_competitive_dialog_16"				"Ilgas Žaidimas"
-		"play_settings_competitive_dialog_16_desc"			"Laimėkite 16 raunų, kad laimėti žaidimą (klasikinis)"
+		"play_settings_competitive_dialog_16_desc"			"Laimėkite 16 raundų, kad laimėti žaidimą (klasikinis)"
 		"play_settings_competitive_tooltip"					"Žaidimo trukmės nustatymas"
 
 	// DM STYLE
@@ -775,16 +1365,16 @@
 		"play_setting_gamemodeflags_deathmatch_4"			"Komanda prieš komandą"
 		"play_settings_deathmatch_dialog_title"				"Mirties rungtynių stilius"
 		"play_settings_deathmatch_dialog_desc"				"Pasirinkite jūsų norimą Mirties Mūšio stilių."
-		"play_settings_deathmatch_dialog_32"				"Kiekvienas Už Save"
+		"play_settings_deathmatch_dialog_32"				"Kiekvienas už save"
 		"play_settings_deathmatch_dialog_32_desc"			"Individualus rezultatas, kiekvinas yra taikinys"
 		"play_settings_deathmatch_dialog_16"				"Klasikinis"
 		"play_settings_deathmatch_dialog_16_desc"			"Individualus rezultatas, kitos komanda yra taikinys"
-		"play_settings_deathmatch_dialog_4"					"Komanda Prieš Komandą"
+		"play_settings_deathmatch_dialog_4"					"Komanda prieš Komandą"
 		"play_settings_deathmatch_dialog_4_desc"			"Komandinis rezultatas, kita komanda yra taikinys"
-		"play_settings_deathmatch_tooltip"					"Mirties Rungtynių stilius"
-		"DirectChallenge"									"Privati Eilė"
+		"play_settings_deathmatch_tooltip"					"Mirties tungtynių stilius"
+		"DirectChallenge"									"Privati eilė"
 		"DirectChallenge_lobbysettings_on"					"Privati eilė" 
-		"permissions_open_party"							"Atviras Vakarėlis"
+		"permissions_open_party"							"Atviras vakarėlis"
 
 	// WORKSHOP TAB
 		"CSGO_Workshop_Mode_classic"						"Klasikinis"
@@ -795,16 +1385,16 @@
 		"CSGO_Workshop_Mode_deathmatch"						"Mirties Rungtynės"
 		"CSGO_Workshop_Mode_training"						"Treniruotė"
 		"CSGO_Workshop_Mode_coopstrike"						"Kooperacinis smūgis"
-		"CSGO_Workshop_Mode_custom"							"Custom"
+		"CSGO_Workshop_Mode_custom"							"Pasirinktinis"
 		"CSGO_Workshop_Mode_armsrace"						"Ginklavimosi Rungtynės"
 		"CSGO_Workshop_Mode_demolition"						"Griovimas"
-		"CSGO_Workshop_Mode_flyingscoutsman"				"Skraidantis Žvalgas"
+		"CSGO_Workshop_Mode_flyingscoutsman"				"Skraidantis žvalgas"
 		"CSGO_Workshop_Mode_retakes"						"Perimimas"
 		"CSGO_Workshop_Mode_dm_freeforall"					"Kiekvienas Už Save"
 		"CSGO_Workshop_No_Maps"								"You are not subscribed to any maps.<br><br>Visit the Steam Workshop to find new maps and experiences!"
-		"CSGO_Workshop_Visit"								"Aplankykite Dirbtuvę"
-		"CSGO_Workshop_Search_Placeholder"					"Filtruoti Žemėlapius"
-		"CSGO_Workshop_Mode_Select_Title"					"Pasirinkite Režimą"
+		"CSGO_Workshop_Visit"								"Aplankykite dirbtuvę"
+		"CSGO_Workshop_Search_Placeholder"					"Filtruoti žemėlapius"
+		"CSGO_Workshop_Mode_Select_Title"					"Pasirinkite režimą"
 
 	// PRIME MATCHDRAFT
 		"matchdraft_phase_1"								"Rinkitės Pirmas Arba Praleiskite Eilę"
@@ -836,19 +1426,15 @@
 		"matchdraft_opponent_team"							"Priešas"
 
 	
-	// PLAY OPTIONS (MENUS)
+	// Play Main dropdown
 	
+		//37587
 		"play_setting_online"								"Prisijungus"
 		"play_setting_offline"								"Atsijungus"
 		"play_setting_training_course"						"Treniruotė"
 		"play_setting_workshop"								"Dirbtuvė"
 		"play_setting_community"							"Bendruomenė"
-			
-	// INVENTORY TEAM INFO
 	
-		"CSGO_Inventory_Team_Any"							""
-		"CSGO_Inventory_Team_CT"							""
-		"CSGO_Inventory_Team_T"								""
 			
 	// INVENTORY EXTERIOR
 		
@@ -908,9 +1494,7 @@
 		
 	// JOIN MESSAGE (CHAT)
 	
-		"Cstrike_game_join_spectators"						"%s1 > Žiūrovai\n"
-		"Cstrike_game_join_terrorist"						"%s1 > 	T\n"
-		"Cstrike_game_join_ct"								"%s1 > CT\n"
+		
 		
 	// TEAM ATTACK MESSAGE (CHAT)
 	
@@ -933,17 +1517,20 @@
 		"Player_Cash_Award_ExplainSuicide_TeammateGotCash"	"Komandos narys %s3 buvo paskirtas +$%s2 premiją už %s1 savižudybę."
 		"Player_Cash_Award_ExplainSuicide_EnemyGotCash"		"Priešininkas buvo paskirtas premiją už %s1 savižudybę."
 		"Player_Cash_Award_ExplainSuicide_Spectators"		" %s3 buvo paskirtas +$%s2 premiją už %s1 savižudybę."
-		"Player_Cash_Award_Kill_Teammate"					"-$%s1 • Teamkill"
-		"Player_Cash_Award_Killed_Enemy_Generic" 			"+$%s1 • Nužudymas"
-		"Player_Cash_Award_Killed_Enemy"					"+$%s1 • %s2"
-		"Player_Cash_Award_Bomb_Planted"					"+$%s1 • Sprogmuo užtaisytas"
-		"Player_Cash_Award_Bomb_Defused"					"+$%s1 • Sprogmuo nukenksmintas"
-		"Player_Cash_Award_Rescued_Hostage"					"+$%s1 • Įkaitas išgelbėtas"
-		"Player_Cash_Award_Interact_Hostage"				"+$%s1 • Įkaitas pasiektas"
-		"Player_Cash_Award_Respawn"							"+$%s1 • Atgimimas"
-		"Player_Cash_Award_Get_Killed"						"+$%s1 • Premija už buvimą išnaikintam"
-		"Player_Cash_Award_Damage_Hostage"					"+$%s1 • Įkaitas sužalotas"
-		"Player_Cash_Award_Kill_Hostage"					"+$%s1 • Įkaitas nužudytas"		
+		
+		"Player_Cash_Award_Kill_Teammate"		" -$%s1: Bausmė už draugo nužudymą."
+		"Player_Cash_Award_Killed_VIP"			" +$%s1: Apdovanojimas už VIP neutralizavimą."
+		"Player_Cash_Award_Killed_Enemy_Generic" " +$%s1: Apdovanojimas už priešo neutralizavimą."
+		"Player_Cash_Award_Killed_Enemy"		" +$%s1: Apdovanojimas už priešo neutralizavimą su %s2."
+		"Player_Cash_Award_Bomb_Planted"		" +$%s1: Apdovanojimas už C4 padėjimą."
+		"Player_Cash_Award_Bomb_Defused"		" +$%s1: Apdovanojimas už C4 nukenksminimą."
+		"Player_Cash_Award_Rescued_Hostage"		" +$%s1: Apdovanojimas už įkaito išlaisvinimą."
+		"Player_Cash_Award_Interact_Hostage"	" +$%s1: Apdovanojimas už įkaito pasiekimą."
+		"Player_Cash_Award_Respawn"				" +$%s1: Apdovanojimas už atgimimą."
+		"Player_Cash_Award_Get_Killed"			" +$%s1: Apdovanojimas už tai, kad buvoote eliminuotas"
+		"Player_Cash_Award_Damage_Hostage"		" -$%s1: Bausmė už įkaito sužeidimą."
+		"Player_Cash_Award_Kill_Hostage"		" -$%s1: Bausmė už įkaito nužudymą."
+		
 		"Team_Cash_Award_T_Win_Bomb"						"+$%s1 • Sprogmuo susprogo"
 		"Team_Cash_Award_Elim_Hostage"						"+$%s1 • Komandos sunaikinta"
 		"Team_Cash_Award_Elim_Bomb"							"+$%s1 • Komanda sunaikinta"
@@ -1019,9 +1606,9 @@
 		"SFUI_XP_RankName_31"								"Majoras."					
 		"SFUI_XP_RankName_32"								"Majoras."
 
-		"SFUI_XP_RankName_33"								"pulkininkas."
-		"SFUI_XP_RankName_34"								"pulkininkas."
-		"SFUI_XP_RankName_35"								"pulkininkas."
+		"SFUI_XP_RankName_33"								"Pulkininkas."
+		"SFUI_XP_RankName_34"								"Pulkininkas."
+		"SFUI_XP_RankName_35"								"Pulkininkas."
 		"SFUI_XP_RankName_36"								"Brigados Generolas."
 
 		"SFUI_XP_RankName_37"								"Majoras Generolas."							
@@ -1052,44 +1639,7 @@
 		"SFUI_Lobby_SearchTitle_OngoingMatches"				"Vykstančios rungtynės... %s1"
 		"SFUI_Lobby_SearchTitle_PlayersOnline"				"Prisijungę žaidėjai... %s1"
 
-	// GAME MODE NAMES
-
-		"SFUI_GameMode"										"Režimas"
-		"SFUI_GameModeClassic"								"Klasikinis"
-		"SFUI_GameModeCasual"								"Paprastas"
-		"SFUI_GameModeCompetitiveSP"						"Konkurencija"
-		"SFUI_GameModeCompetitive"							"Konkurencija"
-		"SFUI_GameModeCompetitiveTeams"						"Pirmaeilė Konkurencija"
-		"SFUI_GameModeSurvival"								"Pavojaus Zona"
-		"SFUI_GameModeScrimComp2v2"							"Sparnininkas"
-		"SFUI_GameModeScrimComp5v5"							"Ginklų Ekspertas"
-		"SFUI_GameModeSkirmish"								"Karo Žaidimas"
-		"SFUI_GameModeTraining"								"Treniruotė"
-		"SFUI_Deathmatch"									"Mirties Rungtynės"
-		"SFUI_Cooperative"									"Sargybinis"
-		"SFUI_CoopMission"									"Co-op Strike"
-		"SFUI_GameModeCustom"								"Custom"
-		"SFUI_GameModeAll"									"Visi Žemėlapiai"
-		"SFUI_GameModeAny"									"Bet Koks Režimas"
-		"SFUI_GameModeGungameProgressive"					"Ginklavimosi Varžybos"
-		"SFUI_GameModeGungameTrBomb"						"Griovimas"
-		"SFUI_GameModeDeathmatch"							"Mirties Rungtynės"
-		"SFUI_GameModeRetakes"								"Perimimas"
-		"SFUI_GameModeDM_FreeForAll"						"Kiekvienas už Save"
-
-		"SFUI_GameMode_casual"								"Klasikinis"
-		"SFUI_GameMode_competitive"							"Konkurencija"
-		"SFUI_GameMode_scrimcomp2v2"						"Sparnininkas"
-		"SFUI_GameMode_scrimcomp5v5"						"Ginklų Ekspertas"
-		"SFUI_GameMode_skirmish"							"Karo Žaidimas"
-		"SFUI_GameMode_training"							"Treniruotė"
-		"SFUI_GameMode_gungameProgressive"					"Ginklų Ekspertas"
-		"SFUI_GameMode_GungameTrBomb"						"Griovimas"
-		"SFUI_GameMode_deathmatch"							"Mirties Rungtynės"
-		"SFUI_GameMode_cooperative"							"Sargybinis"
-		"SFUI_GameMode_coopmission"							"Co-op Strike"
-		"SFUI_GameMode_Survival"							"Pavojaus Zona"
-		"SFUI_GameMode_custom"								"Custom"
+		
 
 		"SFUI_GameModeGGProgressive"						"Ginklavimosi Varžybos"
 		"SFUI_GameModeGGBomb"								"Griovimas"
@@ -1137,15 +1687,15 @@
 		"no_maps_selected_text"								"Pasirinkite bent vieną žemėlapį ar žemėlapių grupę."
 
 
-		"advertising_for_hire_tooltip_title" 				"Ieškoma Žaidėjų"
+		"advertising_for_hire_tooltip_title" 				"Ieškoma žaidėjų"
 		"advertising_for_hire_tooltip"						"Leidžia netoliese esantiems žaidėjams kviesti jus į komandą"
 		"advertising_for_hire_tooltip_disabled"				"Neleidžiama įjungti „Ieškoma Žaidėjų“ kol esate komandoje"
-		"advertising_for_hire_stop_looking"					"Nustoti Ieškoti"
-		"advertising_for_hire_open_friends_list"			"Surasti Žaidėją"
+		"advertising_for_hire_stop_looking"					"Nustoti ieškoti"
+		"advertising_for_hire_open_friends_list"			"Surasti žaidėją"
 
-		"elevated_status_toggle_prime_only"					"Reitinguojami Žaidimai"
-		"elevated_status_toggle_prime_all"					"Nereitinguojami Žaidimai"
-		"elevated_status_toggle_non_prime"					"Svarbiausias Įjungtas"
+		"elevated_status_toggle_prime_only"					"Reitinguojami žaidimai"
+		"elevated_status_toggle_prime_all"					"Nereitinguojami žaidimai"
+		"elevated_status_toggle_non_prime"					"Svarbiausias 5jungtas"
 
 
 		"SFUI_T_Label"										"TERORISTAI"
@@ -1178,15 +1728,15 @@
 	
 	//	BOT TYPE NAMES
 	
-		"SFUI_BotDifficulty"								"Botų Sunkumas"
-		"SFUI_BotDifficulty0"								"Jokių Botų"
-		"SFUI_BotDifficulty1"								"Nekenksmingi Botai"
-		"SFUI_BotDifficulty2"								"Lengvi Botai"
-		"SFUI_BotDifficulty3"								"Vidutiniai Botai"
-		"SFUI_BotDifficulty4"								"Sunkūs Botai"
-		"SFUI_BotDifficulty5"								"Ekspertai Botai"
+		"SFUI_BotDifficulty"								"Botų sunkumas"
+		"SFUI_BotDifficulty0"								"Jokių botų"
+		"SFUI_BotDifficulty1"								"Nekenksmingi botai"
+		"SFUI_BotDifficulty2"								"Lengvi botai"
+		"SFUI_BotDifficulty3"								"Vidutiniai botai"
+		"SFUI_BotDifficulty4"								"Sunkūs botai"
+		"SFUI_BotDifficulty5"								"Ekspertai botai"
 
-		"SFUI_InvPanel_Loadout_Title"						"Įkrovimas"
+		"SFUI_InvPanel_Loadout_Title"						"Ekipuotė"
 		"SFUI_InvPanel_Inventory_Title"						"Inventorius"
 		"SFUI_InvPanel_Market_Title"						"Bendruomenės Turgus"
 		"SFUI_InvPanel_filter_Text"		    				"Filtruoti Pavadinimą"
@@ -1215,7 +1765,7 @@
 		"SFUI_BuyMenu_HeavyWeapons" 						"SUNKIEJI"
 		"SFUI_BuyMenu_Rifles"       						"GRAIŽTVINIAI GINKLAI"
 		"SFUI_BuyMenu_Equipment"    						"ĮRANGA"
-		"SFUI_BuyMenu_Loadouts"     						"IŠSIDĖSTYMAI"
+		"SFUI_BuyMenu_Loadouts"     						"EKIPUOTĖS"
 		"SFUI_BuyMenu_SMGs"         						"SMG"
 		"SFUI_BuyMenu_CQB"          						"CQB"
 		"SFUI_BuyMenu_Grenades"     						"GRANATOS"
@@ -1224,7 +1774,7 @@
 		"SFUI_BuyMenu_SelectWeapon" 						"Select\nWeapon"
 		"SFUI_BuyMenu_Inventory" 							"Inventorius"
 		"SFUI_BuyMenu_CurrentInventory" 					"Dabartinis inventorius"
-		"SFUI_BuyMenu_LoadoutNumber" 						"Išsidėstymas %s1"
+		"SFUI_BuyMenu_LoadoutNumber" 						"Ekipuotė %s1"
 		"SFUI_BuyMenu_Firepower" 							"ŠAUNAMOJI GALIA"
 		"SFUI_BuyMenu_Damage" 								"ŽALOS KIEKIS"
 		"Pano_BuyMenu_Damage_val" 							"{d:r:damage}"
@@ -1251,11 +1801,6 @@
 		"SFUI_BuyMenu_Cost" 								"KAINA:"
 		"SFUI_BuyMenu_Tagging" 								"STABDOMOJI GALIA:"
 		"Pano_BuyMenu_Tagging_val" 							"{d:r:tagging}"
-		"SFUI_BuyMenu_Tagging_1" 							"★☆☆☆☆"
-		"SFUI_BuyMenu_Tagging_2" 							"★★☆☆☆"
-		"SFUI_BuyMenu_Tagging_3" 							"★★★☆☆"
-		"SFUI_BuyMenu_Tagging_4" 							"★★★★☆"
-		"SFUI_BuyMenu_Tagging_5" 							"★★★★★"
 		"SFUI_BuyMenu_TimerText"							"Liko Pirkimo Laiko :"
 		"SFUI_BuyMenu_ImmunityTimerText"					"Liko Imuniteto Laiko:"
 		"SFUI_BuyMenu_OutOfTime" 							"%s1-ies sekundžių pirkimo periodas baigėsi"
@@ -1419,16 +1964,18 @@
 
 
 		// Store Categories
+		
+		//27579
 		"Store_Price_New"		"NAUJIENA!"
+		
+		"Store_CANCEL"			"ATŠAUKTI"
+		"Store_NowAvailable"	"DABAR PRIEINAMA"
+		
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	//HUD: Help/Medals/Defuse Info Panel
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-		"SFUIHUD_InfoPanel_HelpTitle"		""
-
-		"SFUIHUD_InfoPanel_PriorityMsgTitle"	"Įspėjimas"
-		
 		"UI_Alert"		"Įspėjimas"
 		"UI_Help" 		"Pagalba"
 
@@ -1446,77 +1993,9 @@
 		"SFUI_TeamButtonCancel"								"Atšaukti"
 		"SFUI_TeamButtonSpectate"							"Stebėti"
 
-		"SFUI_WPNHUD_Pistol"								"Pistoletai"
-		"SFUI_WPNHUD_SMG"									"SMG"
-		"SFUI_WPNHUD_Rifle"									"Šautuvai"
-		"SFUI_WPNHUD_Heavy"									"Sunkieji"
-		"SFUI_WPNHUD_Grenade"								"Granatos"
-		"SFUI_WPNHUD_SniperRifle"							"Saniperio Šautuvas"
-		"SFUI_WPNHUD_Sniper"								"Sniperis"
-		"SFUI_WPNHUD_Shotgun"								"Šratinis Šautuvas"
-		"SFUI_WPNHUD_DesertEagle"							"Dykumos Erelis"
-		"SFUI_WPNHUD_Deagle"								"Dykumos Erelis"
-		"SFUI_WPNHUD_Elites"								"Dvigubos beretės"
-		"SFUI_WPNHUD_Elite"									"Dvigubos beretės"
-		"SFUI_WPNHUD_HE_Grenade"							"Didelio sprogstamumo granata"
-		"SFUI_WPNHUD_HEGrenade"								"Didelio sprogstamumo granata"
-		"SFUI_WPNHUD_Knife"									"Peilis"
-		"SFUI_WPNHUD_Knife_T"								"Peilis"
-		"SFUI_WPNHUD_Knife_GG"								"Auksinis Peilis"
-		"SFUI_WPNHUD_Smoke_Grenade"							"Dūmų Granata"
-		"SFUI_WPNHUD_SmokeGrenade"							"Dūmų Granata"
-		"SFUI_WPNHUD_C4"									"Sprogmuo"
-		"SFUI_WPNHUD_Molotov"								"Molotovas"
-		"SFUI_WPNHUD_IncGrenade"							"Padegamoji Granata"
-		"SFUI_WPNHUD_Decoy"									"Masalo Granata"
-		"SFUI_WPNHUD_ASSAULTSUIT"							"Kevlaras + Šalmas"
-		"SFUI_WPNHUD_KEVLAR"								"Kevlaro Krūtinė"
-		"SFUI_WPNHUD_DEFUSER"								"Nukenksminimo Įranga"
-		"SFUI_WPNHUD_CUTTERS"								"Gelbėjimo Įranga"
-		"SFUI_WPNHUD_REVOLVER"								"R8 Revolveris"
-		"SFUI_WPNHUD_KnifeBayonet"							"Bajonetė"
-		"SFUI_WPNHUD_KnifeFlip"								"Apverčiamas peilis"
-		"SFUI_WPNHUD_KnifeGut"								"Žarnyno peilis"
-		"SFUI_WPNHUD_KnifeCSS"								"Klasikinis peilis"
-		"SFUI_WPNHUD_KnifeM9"								"M9 Bajonetė"
-		"SFUI_WPNHUD_KnifeKaram"							"Karambitas"
-		"SFUI_WPNHUD_KnifeTactical" 						"Medžiotojo peilis"
-		"SFUI_WPNHUD_Knife_Butterfly" 						"Drugelio Peilis"
-		"SFUI_WPNHUD_knife_falchion_advanced" 				"Falchion peilis"
-		"SFUI_WPNHUD_knife_push" 							"Šešėlių durklai"
-		"SFUI_WPNHUD_knife_survival_bowie" 					"Bowie peilis"
-		"SFUI_WPNHUD_Healthshot"							"Gydomasis-Shotas"
-		"SFUI_WPNHUD_Snowball"								"Sniego Gniužtė"
+		
 
-	// Loadout slots
-		"LoadoutSlot_Melee"									"Artima Kova"
-		"LoadoutSlot_C4"									"Sprogmuo"
-		"LoadoutSlot_Secondary"								"Pistoletai"
-		"LoadoutSlot_SMG"									"SMG"
-		"LoadoutSlot_Rifle"									"Šautuvai"
-		"LoadoutSlot_Heavy"									"Sunkieji"
-		"LoadoutSlot_Grenade"								"Granatos"
-		"LoadoutSlot_Equipment"								"Įranga"
-		"LoadoutSlot_clothing"								"Pirštinės"
-		"LoadoutSlot_clothing_hands"						"Pirštinės"
-
-		"LoadoutSlot_Flair"									"Eksponatai"
-		"LoadoutSlot_Spray"									"Grafičiai"
-		"LoadoutSlot_Spray0"								"Grafičiai"
-		"LoadoutSlot_customplayer"							"Agentai"
-		"LoadoutSlot_MusicKit"								"Muzikos Rinkiniai"
-
-		// Weapon Rarity Names
-		"Rarity_Default_Weapon"								"Išteklius"
-		"Rarity_Common_Weapon"								"Vartotojo laipsnis"
-		"Rarity_Uncommon_Weapon"							"Pramoninės klasės"
-		"Rarity_Rare_Weapon"								"Mil-Spec klasės"
-		"Rarity_Mythical_Weapon"							"Apribotas"
-		"Rarity_Legendary_Weapon"							"Įslaptintas"
-		"Rarity_Ancient_Weapon"								"Užslėptas"
-		"Rarity_Contraband_Weapon"							"Kontrabandinis"
-		"Rarity_Arcana_Weapon"								"NEVARDINTAS"
-		"CSGO_FilterRarity"									"Visos retenybės"
+		
 
 
 		"Rarity_Default_Character"							"Numatytas"
@@ -1624,52 +2103,10 @@
 		"teamname_TERRORIST"								"TERORISTAI"
 		"teamname_CT"										"ANTI-TERORISTAI"
 		"teamname_Spectator"								"ŽIŪROVAI"
-
-	// DANGER ZONE
-
-	// TABLET
+		
+		
+		
+		
 	
-		"TabletBuyMenu"										"[{v:csgo_bind:bind_buymenu}] Žemėlapis"
-		"TabletHintBuy"										"   [{v:csgo_bind:bind_showscores}] Uždaryti"
-		"TabletHintMap"										" "
-		"TabletHintClose"									" "
-		"TabletNotification_HighlightedSectors"				"[{v:csgo_bind:bind_buymenu}] Pirkimo Meniu"
-		"TabletNotification_NoDronesToControl"				"Nėra dronų."
-		"TabletNotification_IncomingDelivery"				"Atkeliauja užsakymas"
-		"TabletNotification_ExplorationPayment"				"Tyrinėjimas +${d:exploreprice}"
-		"TabletNotification_ExplorationPayment_Bonus" 		"Tyrinėjimas +${d:exploreprice} & +${d:explorebonus}"
-		"TabletNotification_BombWaveMoney"					"Išgyvenimas +${d:surviveprice}"
-		"TabletNotification_BombWaveMoney_Bonus"			"Išgyvenimas +${d:surviveprice} & +${d:survivebonus}"
-		
-	// DANGER ZONE SURVIVAL RESPAWN
-		"Survival_TeammateRespawned"						"Komandos narys atgimė!"
-		"Survival_RespawnEndWarning"						"Atgimimo pabaiga po {t:d:timeleft}"
-		"Survival_RespawningDisabled"						"Daugiau jokių atgimimų!"
-		"Survival_Respawn_Cooldown_Too_Long"				"Daugiau jokių atgimimų!"
-		
-	// TRUST FACTOR WARNING
-		"SFUI_QMM_ERROR_X_AccountWarningTrustMinor"			"Atsargiai: %s1 turi žemėsnį patikimumo lygį nei jūs."
-		"SFUI_QMM_ERROR_X_AccountWarningTrustMajor"			"Perspėjimas: %s1 turi daug žemesnį patikimumo lygį nei jūsų."
-
-	// Panorama strings
-		"PANOHUD_Spectate_Navigation_Camera"				"[{v:csgo_bind:bind_jump}] Kamera "
-		"PANOHUD_Spectate_Navigation_Arrows_Prev"			"[{v:csgo_bind:bind_attack2}] Preitas Žaidėjas"
-		"PANOHUD_Spectate_Navigation_Arrows"				"[{v:csgo_bind:bind_attack}] Sekantis Žaidėjas"
-		"PANOHUD_Spectate_Navigation_Replay_Death"			"<font color='#ddbb22'><b>[{v:csgo_bind:bind_reload}] Žudiko pakartojimas</b></font>"
-		"PANOHUD_Spectate_Navigation_Cancel_Replay"			"[{v:csgo_bind:bind_jump}] Pabaigti Pakartojimą"
-		"PANOHUD_Spectate_Navigation_Control_Bot"			"[{v:csgo_bind:bind_use}] Kontroliuoti Botą "
-		"PANOHUD_Spectate_Navigation_New_ToggleXRay"		"[{v:csgo_bind:bind_slot12}] X-Rėjus "
-		"PANOHUD_Spectate_Navigation_ToggleGraphs"			"[{v:csgo_bind:bind_lastinv}] Grafikai "
-		"PANOHUD_Spectate_Navigation_InspectWeapon"			"[{v:csgo_bind:bind_lookatweapon}] Apžiūrėti Ginklą "
-		"PANOHUD_Spectate_Navigation_New_Director_On"		"[{v:csgo_bind:bind_radio}] Įjungti Auto-Dirigentas "
-		"PANOHUD_Spectate_Navigation_New_Director_Off"		"[{v:csgo_bind:bind_radio}] Išjungti Auto-Dirigentą "
-		"PANOHUD_Spectate_Navigation_New_Cameraman_On"		"[{v:csgo_bind:bind_radio}] Įjungti Kameros Operatorių "
-		"PANOHUD_Spectate_Navigation_ToggleSpec"			"[{v:csgo_bind:bind_drop}] Mini Švieslentė "
-		"PANOHUD_Spectate_Navigation_ToggleOverview"		"[{v:csgo_bind:bind_duck}] Apžvalga Iš Viršaus "
-		"PANOHUD_GhostBecomeSpectator"						"Spauskite [%s1] kad patapti žiūrovu"
-
-		"SFUIHUD_Spectate_You_Are_Dead"						"<font color=\"%s1\">Sekama %s2</font>"
-		"SFUIHUD_Spectate_RoundsLeft"						"Raundas %s1"
-		"SFUIHUD_Spectate_RoundsLeftOvertime"				"OT %s1  (%s2)"
 }
 }
