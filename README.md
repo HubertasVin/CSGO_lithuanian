@@ -1,4 +1,4 @@
-# CSGO_lithuanian
+# CSGO_lithuanian (pasenęs)
 CS:GO nepilnas vertimas iš anglų kalbos į lietuvių.
 
 Didelė dalis žaidimo dar neišversta, tačiau aktyviai dirbu atnaujindamas vertimą.
